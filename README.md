@@ -65,13 +65,13 @@ The Header represents the top section of the portfolio, including the background
   import styles from './Header.module.css';
 
   const Header = () => {
-      return (
-          <header className={styles.header}>
-              <h1>Nana Adjoa</h1>
-              <p>A Beginner Web Developer at The PAD Forum</p>
-              {/* Social links go here */}
-          </header>
-      );
+    return (
+      <header className={styles.header}>
+        <h1>Nana Adjoa</h1>
+        <p>A Beginner Web Developer at The PAD Forum</p>
+        {/* Social links go here */}
+      </header>
+    );
   };
 
   export default Header;
@@ -80,9 +80,9 @@ The Header represents the top section of the portfolio, including the background
   **CSS Module Example (`Header.module.css`):**
   ```css
   .header {
-      background-color: #fff;
-      padding: 1rem;
-      text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
   }
   ```
 
@@ -100,13 +100,13 @@ The About component contains the about section with a the explainer video, and a
   import styles from './About.module.css';
 
   const About = () => {
-      return (
-          <section className={styles.about}>
-              <h2>About</h2>
-              <div>{/* Explainer video goes here */}</div>
-              <p>{/* About text goes here */}</p>
-          </section>
-      );
+    return (
+      <section className={styles.about}>
+        <h2>About</h2>
+        <div>{/* Explainer video goes here */}</div>
+        <p>{/* About text goes here */}</p>
+      </section>
+    );
   };
 
   export default About;
@@ -115,8 +115,8 @@ The About component contains the about section with a the explainer video, and a
   **CSS Module Example (`About.module.css`):**
   ```css
   .about {
-      padding: 2rem;
-      background-color: #f3f3f3;
+    padding: 2rem;
+    background-color: #f3f3f3;
   }
   ```
 
@@ -134,12 +134,12 @@ The Skills component displays a list of skills with corresponding proficiency le
   import styles from './Skills.module.css';
 
   const Skills = () => {
-      return (
-          <section className={styles.skills}>
-              <h2>Skills</h2>
-              {/* Skill contents go here */}
-          </section>
-      );
+    return (
+      <section className={styles.skills}>
+        <h2>Skills</h2>
+        {/* Skill contents go here */}
+      </section>
+    );
   };
 
   export default Skills;
@@ -148,8 +148,8 @@ The Skills component displays a list of skills with corresponding proficiency le
   **CSS Module Example (`Skills.module.css`):**
   ```css
   .skills {
-      padding: 2rem;
-      background-color: #eaeaea;
+    padding: 2rem;
+    background-color: #eaeaea;
   }
   ```
 
@@ -167,14 +167,14 @@ The Contact component contains a contact form for visitors to send messages.
   import styles from './Contact.module.css';
 
   const Contact = () => {
-      return (
-          <section className={styles.contact}>
-              <h2>Contact</h2>
-              <form>
-                  {/* Form fields go here */}
-              </form>
-          </section>
-      );
+    return (
+      <section className={styles.contact}>
+        <h2>Contact</h2>
+        <form>
+          {/* Form fields go here */}
+        </form>
+      </section>
+    );
   };
 
   export default Contact;
@@ -183,8 +183,8 @@ The Contact component contains a contact form for visitors to send messages.
   **CSS Module Example (`Contact.module.css`):**
   ```css
   .contact {
-      padding: 2rem;
-      background-color: #ddd;
+    padding: 2rem;
+    background-color: #ddd;
   }
   ```
 
@@ -202,11 +202,11 @@ The Footer component displays the footer with copyright and legal information.
   import styles from './Footer.module.css';
 
   const Footer = () => {
-      return (
-          <footer className={styles.footer}>
-              ©2023, The PAD Program. All Rights Reserved.
-          </footer>
-      );
+    return (
+      <footer className={styles.footer}>
+        ©2023, The PAD Forum. All Rights Reserved.
+      </footer>
+    );
   };
 
   export default Footer;
@@ -215,10 +215,10 @@ The Footer component displays the footer with copyright and legal information.
   **CSS Module Example (`Footer.module.css`):**
   ```css
   .footer {
-      padding: 1rem;
-      background-color: #222;
-      color: #fff;
-      text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
   }
   ```
 

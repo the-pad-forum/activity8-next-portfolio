@@ -271,6 +271,10 @@ activity8-your-github-repo/
 │   │   ├── Contact.tsx                # Contact section component
 │   │   └── Footer.tsx                 # Footer component
 │   │
+│   ├── images/                        # Directory for images
+│   │   ├── header-background.png      # Header background image
+│   │   └── profile-picture.png        # Display picture 
+│   │
 │   ├── styles/                        # Directory for CSS modules
 │   │   ├── Header.module.css          # Styles for the Header component
 │   │   ├── About.module.css           # Styles for the About component

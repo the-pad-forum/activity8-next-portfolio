@@ -39,7 +39,7 @@ In this project, you will transform a portfolio website developed using HTML and
 
 Creating a portfolio website in Next.js involves breaking down the UI into reusable components. You will convert the following portfolio design into a Next.js website by creating five main components and styling them with CSS:
 
-![Portfolio Design](/portfolio.png)
+![Portfolio Design](Portfolio.png)
 
 ### Development Environment Setup
 Set up Next.js for your portfolio website development by following the guidelines in the `Configuring the Development Environment` section of the week 8 lecture notes.

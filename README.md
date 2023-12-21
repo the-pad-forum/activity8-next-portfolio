@@ -63,14 +63,14 @@ The Header represents the top section of the portfolio, including the background
   **Example Boilerplate:**
   ```tsx
   import Image from 'next/image';
-  import DP from './images/profile-picture.png';
-  import styles from './Header.module.css';
+  import DP from '../images/profile-picture.png';
+  import styles from '../styles/Header.module.css';
 
   const Header = () => {
     return (
       <header className={styles.header}>
         <Image className={styles.dp} src={DP} width="124" height="124" alt="" />
-        <h1>Nana Adjoa</h1>
+        <h1>Your Name</h1>
         <p>A Beginner Web Developer at The PAD Forum</p>
         {/* Social links go here */}
       </header>
@@ -103,7 +103,7 @@ The About component contains the about section with a the explainer video, and a
 
   **Example Boilerplate:**
   ```tsx
-  import styles from './About.module.css';
+  import styles from '../styles/About.module.css';
 
   const About = () => {
     return (
@@ -137,7 +137,7 @@ The Skills component displays a list of skills with corresponding proficiency le
 
   **Example Boilerplate:**
   ```tsx
-  import styles from './Skills.module.css';
+  import styles from '../styles/Skills.module.css';
 
   const Skills = () => {
     return (
@@ -170,7 +170,7 @@ The Contact component contains a contact form for visitors to send messages.
 
   **Example Boilerplate:**
   ```tsx
-  import styles from './Contact.module.css';
+  import styles from '../styles/Contact.module.css';
 
   const Contact = () => {
     return (
@@ -205,7 +205,7 @@ The Footer component displays the footer with copyright and legal information.
 
   **Example Boilerplate:**
   ```tsx
-  import styles from './Footer.module.css';
+  import styles from '../styles/Footer.module.css';
 
   const Footer = () => {
     return (
